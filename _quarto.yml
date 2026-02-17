@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Chathu Bandara"
+  navbar:
+    right:
+      - text: About
+        href: "#about"
+      - text: Education
+        href: "#education"
+      - text: Experience
+        href: "#experience"
+      - text: Skills
+        href: "#skills"
+      - text: Research 
+        href: "#research "
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    css: styles.css

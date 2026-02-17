@@ -1,0 +1,227 @@
+---
+title: "Chathu Bandara"
+format:
+  html:
+    theme: cosmo
+    toc: false
+    css: styles.css
+page-layout: full
+---
+
+```{=html}
+<div class="hero hero-minimal" id="about">
+
+<div class="hero-left">
+<div class="hero-kicker">MBA Student • QA Engineer • Vancouver, BC</div>
+
+<h1 class="hero-hello">
+      Hello<span class="hero-dot">.</span>
+</h1>
+
+<p class="hero-tagline">I’m <strong>Chathu Bandara</strong> - building reliable products through QA, automation, and delivery focus,while growing in strategy, operations, and digital transformation.
+</p>
+
+<div class="hero-actions">
+
+  <!-- Gmail -->
+  <a class="icon-circle" href="mailto:chathumi.cg@gmail.com" aria-label="Email (Gmail)">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 6H4v12h16V6zm-8 7L5.5 7.5h13L12 13z"/></svg>
+  </a>
+
+  <!-- LinkedIn -->
+  <a class="icon-circle" href="https://www.linkedin.com/in/chathumi-bandara/" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.94 7.5A1.94 1.94 0 1 1 7 3.62a1.94 1.94 0 0 1-.06 3.88zM5.5 20.5h3V9h-3v11.5zM10 9h2.9v1.6h.04c.4-.76 1.4-1.56 2.88-1.56 3.08 0 3.65 2.03 3.65 4.66v6.8h-3v-6.03c0-1.44-.03-3.28-2-3.28-2 0-2.3 1.56-2.3 3.17v6.14h-3V9z"/></svg>
+  </a>
+
+  <!-- GitHub -->
+  <a class="icon-circle" href="https://github.com/ChathuBandara" target="_blank" rel="noopener" aria-label="GitHub">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38
+      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+      -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21
+      1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21
+      2.2.82A7.65 7.65 0 018 4.8c.68 0 1.36.09 2 .26
+      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82
+      1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+      1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8
+      c0-4.42-3.58-8-8-8z"/>
+</svg>
+  </a>
+
+</div>
+</div> 
+```
+
+<div class="hero-right">
+<div class="hero-photo">
+<img src="headshot.jpg" alt="Chathu Bandara">
+</div>
+</div>
+
+</div>
+
+<div class="grid">
+
+<div class="card" id="about">
+<h2>About</h2>
+<p>
+I’m an MBA student at University Canada West and a Quality Assurance Engineer based in British Columbia, Canada. I’ve worked across global projects focusing on automation, API validation, regression strategy, and release quality. My goal is to move into leadership roles that connect product delivery with business outcomes.
+</p>
+</div>
+
+<div class="card span-2" id="education">
+<h2>Education</h2>
+
+<div class="item">
+<div class="item-top">
+<div class="item-title">MBA - University Canada West</div>
+<div class="item-date">Expected 2026</div>
+</div>
+<div class="item-sub"> Application of AI in Business • Strategic Management • Digital Transformation</div>
+</div>
+
+<div class="item">
+<div class="item-top">
+<div class="item-title">BSc (Hons) Information Technology</div>
+<div class="item-date">Sri Lanka</div>
+
+</div>
+</div>
+
+</div>
+
+<!-- Start of Experience Section -->
+## Professional Experience {#experience}
+
+::: {.rail-timeline}
+
+::: {.rail-item}
+::: {.rail-date}
+Mar 2025 – Present
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+### Order Verification Associate
+United Floral Inc, Burnaby, BC
+
+- Ensuring high-volume order accuracy in a logistics-driven environment.
+- Applying transferable QA skills such as validation, documentation, and issue detection.
+- Strengthening adaptability within a Canadian workplace context.
+:::
+:::
+
+::: {.rail-item}
+::: {.rail-date}
+Aug 2022 – Sep 2024
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+### Quality Assurance Engineer
+Eyepax IT Consulting (Remote – Australia Clients)
+
+- Reduced regression testing time by **50%** through automation framework design.
+- Improved CI/CD stability by integrating automated smoke tests.
+- Led structured weekly triage sessions, accelerating issue resolution by **40%**.
+- Mentored junior QA engineers to improve scripting consistency and efficiency.
+:::
+:::
+
+::: {.rail-item}
+::: {.rail-date}
+Jan 2021 – Aug 2022
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+### Software Quality Assurance Engineer
+Intervest Software Technologies (European Insurance Clients)
+
+- Increased test coverage by **80%** across insurance platforms.
+- Reduced production defects by **45%** through proactive sprint QA involvement.
+- Delivered multiple quarterly releases with **zero critical** post-launch defects.
+- Promoted within six months based on performance and adaptability.
+:::
+:::
+
+::: {.rail-item}
+::: {.rail-date}
+Jan 2019 – Aug 2020
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+### Quality Assurance Intern
+DirectFN Sri Lanka
+
+- Built Selenium-based regression scripts for fintech systems.
+- Contributed to real-time stock trading platform stability testing.
+- Created onboarding documentation later used for QA training.
+:::
+:::
+
+:::
+
+<!-- End of Experience Section -->
+
+<div class="card span-2" id="skills">
+<h2>Skills</h2>
+
+<div class="skill-groups">
+
+<div>
+<h3 class="mini">Technical</h3>
+<div class="badges">
+<span class="badge">Playwright</span>
+<span class="badge">Cypress</span>
+<span class="badge">Postman</span>
+<span class="badge">API Testing</span>
+<span class="badge">Regression Strategy</span>
+<span class="badge">CI/CD</span>
+<span class="badge">Performance Testing</span>
+</div>
+</div>
+
+<div>
+<h3 class="mini">Business & Leadership</h3>
+<div class="badges">
+<span class="badge">Strategic Thinking</span>
+<span class="badge">Process Improvement</span>
+<span class="badge">Stakeholder Management</span>
+<span class="badge">Decision Making</span>
+<span class="badge">Resilience</span>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="card span-2" id="research">
+
+<h2 class="h2-icon">Research Publication</h2>
+
+<div class="research-card">
+<div class="research-left"><img src="assets/icons/ieee-logo.jpg" alt="IEEE Logo"></div>
+<div class="research-right"><div class="research-title">IEEE Published Research Paper</div>
+
+<div class="research-sub">Published in IEEE Xplore Digital Library</div>
+
+<a class="research-link" href="https://ieeexplore.ieee.org/document/9392395" target="_blank" rel="noopener">View Publication →</a></div>
+
+</div>
+</div>
+
+</div>
