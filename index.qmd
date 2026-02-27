@@ -1,5 +1,5 @@
 ---
-title: "Chathu Bandara"
+title: "Hasitha Koonara"
 format:
   html:
     theme: cosmo
@@ -12,13 +12,13 @@ page-layout: full
 <div class="hero hero-minimal" id="about">
 
 <div class="hero-left">
-<div class="hero-kicker">MBA Student • QA Engineer • Vancouver, BC</div>
+<div class="hero-kicker">Aspiring Software Engineer • AI / ML, Agentforce enthousiast • Vancouver, BC</div>
 
 <h1 class="hero-hello">
       Hello<span class="hero-dot">.</span>
 </h1>
 
-<p class="hero-tagline">I’m <strong>Chathu Bandara</strong> - building reliable products through QA, automation, and delivery focus,while growing in strategy, operations, and digital transformation.
+<p class="hero-tagline">I’m <strong>Hasitha Koonaraa</strong> - building reliable products, automation, and delivery focus,while growing in strategy, operations, and digital transformation.
 </p>
 
 <div class="hero-actions">
@@ -65,7 +65,7 @@ page-layout: full
 <div class="card" id="about">
 <h2>About</h2>
 <p>
-I’m an MBA student at University Canada West and a Quality Assurance Engineer based in British Columbia, Canada. I’ve worked across global projects focusing on automation, API validation, regression strategy, and release quality. My goal is to move into leadership roles that connect product delivery with business outcomes.
+I'm a Software Engineer with hands-on experience delivering enterprise Salesforce solutions for global clients. Most recently, I supported multi-client Salesforce orgs for a technology consulting environment, delivering end-to-end enhancements, improving case and request cycle times, and resolving production issues across Production and Sandbox environments. I work closely with cross-functional and international stakeholders to translate business needs into scalable, secure Salesforce solutions.
 </p>
 </div>
 
