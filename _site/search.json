@@ -1,10 +1,80 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Chathu Bandara",
+    "objectID": "skills.html",
+    "href": "skills.html",
+    "title": "Skills",
     "section": "",
-    "text": "MBA Student • QA Engineer • Vancouver, BC\n\n\n\nI’m Chathu Bandara - building reliable products through QA, automation, and delivery focus,while growing in strategy, operations, and digital transformation."
+    "text": "Capabilities\n\n\n\nMy background combines hands-on quality assurance expertise with growing strengths in business, leadership, and digital transformation. I work across manual testing, automation, API validation, Agile delivery, and cross-functional collaboration."
+  },
+  {
+    "objectID": "skills.html#core-qa-strengths",
+    "href": "skills.html#core-qa-strengths",
+    "title": "Skills",
+    "section": "Core QA Strengths",
+    "text": "Core QA Strengths\nWith over five years of experience in software quality assurance, I have built a strong foundation in both manual and automated testing across web, API, SaaS, and real-time systems. My work focuses on improving reliability, reducing regression effort, and supporting confident releases.\n\nManual Testing Automation Testing API Testing Regression Testing Smoke Testing Sanity Testing Functional Testing Integration Testing System Testing Cross Browser Testing Responsive Testing UAT Support Defect Management Test Planning Test Strategy"
+  },
+  {
+    "objectID": "skills.html#automation-tools",
+    "href": "skills.html#automation-tools",
+    "title": "Skills",
+    "section": "Automation & Tools",
+    "text": "Automation & Tools\nI have worked with modern testing tools and frameworks to improve test coverage, speed up regression cycles, and support scalable QA processes.\n\nPlaywright Cypress Selenium Postman REST Assured Jenkins Git JIRA TestRail Confluence SQL Java JavaScript"
+  },
+  {
+    "objectID": "skills.html#delivery-ways-of-working",
+    "href": "skills.html#delivery-ways-of-working",
+    "title": "Skills",
+    "section": "Delivery & Ways of Working",
+    "text": "Delivery & Ways of Working\nI have consistently worked in Agile teams, partnering with developers, product owners, analysts, and stakeholders across multiple time zones to support sprint delivery and release quality.\n\nAgile Scrum Sprint Planning Backlog Grooming Release Validation QA Sign Off CI/CD Support Cross Functional Collaboration Documentation Issue Tracking"
+  },
+  {
+    "objectID": "skills.html#business-professional-skills",
+    "href": "skills.html#business-professional-skills",
+    "title": "Skills",
+    "section": "Business & Professional Skills",
+    "text": "Business & Professional Skills\nAlongside my technical work, I am building stronger business and leadership capability through my MBA. I am especially interested in connecting software quality with business impact, process improvement, and strategic decision-making.\n\nAnalytical Thinking Problem Solving Communication Stakeholder Management Leadership Development Process Improvement Team Collaboration Adaptability Attention to Detail Business Strategy Digital Transformation Quality Mindset"
+  },
+  {
+    "objectID": "skills.html#domain-exposure",
+    "href": "skills.html#domain-exposure",
+    "title": "Skills",
+    "section": "Domain Exposure",
+    "text": "Domain Exposure\nMy experience spans multiple product and business contexts, helping me adapt quickly to different user needs, workflows, and compliance expectations.\n\nSaaS Platforms Insurance Systems Travel Insurance Document Signing Platforms Stock Market Systems Real Time Financial Platforms IoT Applications"
+  },
+  {
+    "objectID": "skills.html#education-certification",
+    "href": "skills.html#education-certification",
+    "title": "Skills",
+    "section": "Education & Certification",
+    "text": "Education & Certification\n\n\n\nMBA Candidate\n\n\nCurrent\n\n\n\nUniversity Canada West\n\n\n\n\n\nBSc (Hons) in Information Technology\n\n\nCompleted\n\n\n\nSLIIT"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Selected Work\n\n\n\nThis page highlights selected professional and technical work that reflects my experience in quality assurance, automation, testing strategy, and cross-functional delivery. These projects demonstrate both technical depth and business awareness."
+  },
+  {
+    "objectID": "projects.html#research-project",
+    "href": "projects.html#research-project",
+    "title": "Projects",
+    "section": "Research Project",
+    "text": "Research Project\n\n\nSmart Sprint Performance Agent\n\n\nNovel Sprinter Assistive Smart Agent for Continuous Performance Improvement\n\nThis research project was conducted as part of my final year undergraduate studies at Sri Lanka Institute of Information Technology (SLIIT). The project focused on designing an intelligent assistive system that analyzes sprint performance using multiple sensor-based devices and provides automated feedback to improve athlete performance.\n\nKey Components\n\nSmart shoe sensors for stride detection\nTrack sensors for acceleration monitoring\nArm motion detection bracelet\nWeb application for performance visualization\n\n\nResearch IoT Sensors Performance Analytics Automation\n\n\n\nPublication\n\n\n\n\n\n\nIEEE Published Research Paper\n\n\nPublished in IEEE Xplore Digital Library\n\nView IEEE Publication -&gt;"
+  },
+  {
+    "objectID": "projects.html#featured-project",
+    "href": "projects.html#featured-project",
+    "title": "Projects",
+    "section": "Featured Project",
+    "text": "Featured Project\n\n\nFLKitover - Online Document Signing Platform\n\n\nA web-based document workflow platform for Australian small businesses and real estate teams to create, send, and sign documents digitally.\n\nIn this project, I supported end-to-end quality assurance across core workflow features including document creation, signing, validation, and real-time syncing. I contributed through both manual and automated testing while working closely with the client and internal Agile team.\n\nManual Testing Automation Testing Agile Delivery Client Collaboration Workflow Validation Real Time Sync Testing\n\n\nKey Contributions\n\nOwned QA for critical document workflow features.\nDesigned and executed test cases for document generation and signing journeys.\nParticipated in stand-ups, sprint reviews, and direct client discussions.\nImproved test coverage and supported delivery confidence.\nReceived positive recognition for professionalism and responsiveness."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Let’s Connect\n\n\nGet in Touch\n\n\nI’m always open to connecting about quality assurance, automation, digital transformation, business strategy, and new professional opportunities.\n\n\n\n\n\n\nReach Out\n\n\nWhether you want to discuss QA, academic work, collaboration opportunities, or professional networking, I’d be glad to connect.\n\n\n\n\n✉\n\n\n\nEmail\n\n\nchathumi.cg@gmail.com\n\n\n\n\n\n⌂\n\n\n\nLocation\n\n\nVancouver, British Columbia, Canada\n\n\n\n\n\n\nSend a Message\n\n\nClick send message to open the contact form popup.\n\n\n\nSend Message\n\n\n\n\n\n\nWhat I’m Open To\n\n\nQA Opportunities Automation Projects Professional Networking MBA Collaborations Tech Conversations Business Strategy\n\n\n\n\n\n\n\n\n×\n\n\nSend a Message\n\n\nYour message will be delivered to my email inbox.\n\n\n   \nName \nEmail \nMessage\n\n\n\nSend Message\n\n\n\n\n\n\n\n\n\n\n\nin\n\n\n\nLinkedIn\n\n\nChathumi Bandara\n\n\n\n\nExplore my LinkedIn profile directly from here.\n\n\n\n\n\n\n\n\n Open LinkedIn Profile → \n\n\n\n\n\n⌘\n\n\n\nGitHub\n\n\nChathuBandara\n\n\n\n\nSee my coding work, technical projects, and repositories that reflect my interest in software quality, tools, and continuous improvement.\n\n\nCode Projects Technical Work\n\n\n View GitHub Profile →"
   },
   {
     "objectID": "about.html",
@@ -14,101 +84,24 @@
     "text": "About this site"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Hasitha Subhashana",
-    "section": "",
-    "text": "I am an MBA student at University Canada West and a Quality Assurance Engineer based in British Columbia, Canada. I bring over 8 years of experience in software quality engineering, automation testing, API validation, and release governance.\nMy goal is to transition into leadership roles that bridge technical execution with business strategy."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "University Canada West, Vancouver, Canada\nOct 2024 – Jan 2026\nFocus Areas: - Application of AI in Business\n- Strategic Management\n- Operations & Digital Transformation\n- Organizational Leadership\nThrough this program, I am strengthening my ability to connect technical systems with broader business strategy and innovation.\n\n\n\n\nSri Lanka Institute of Information Technology\nCapstone Research:\n“Novel Sprinter Assistive Smart Agent for Continuous Performance Improvement”\nPublished in IEEE Xplore.\nThis research strengthened my foundation in machine learning, feedback systems, and applied AI modeling."
-  },
-  {
-    "objectID": "index.html#professional-experience",
-    "href": "index.html#professional-experience",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "Eyepax IT Consulting (Remote – Australia Clients)\nAug 2022 – Sep 2024\n\nReduced regression testing time by 50% through automation framework design.\nImproved CI/CD stability by integrating automated smoke tests.\nLed structured weekly triage sessions, accelerating issue resolution by 40%.\nMentored junior QA engineers to improve scripting consistency and efficiency.\nUsed AI tools to streamline script development and documentation.\n\n\n\n\n\nIntervest Software Technologies (European Insurance Clients)\nJan 2021 – Aug 2022\n\nIncreased test coverage by 80% across insurance platforms.\nReduced production defects by 45% through proactive sprint QA involvement.\nDelivered multiple quarterly releases with zero critical post-launch defects.\nPromoted within six months based on performance and adaptability.\n\n\n\n\n\nUnited Floral Inc., Burnaby, BC\nMar 2025 – Present\n\nEnsuring high-volume order accuracy in a logistics-driven environment.\nApplying transferable QA skills such as validation, documentation, and issue detection.\nStrengthening adaptability within a Canadian workplace context.\n\n\n\n\n\nDirectFN Sri Lanka\nJan 2019 – Aug 2020\n\nBuilt Selenium-based regression scripts for fintech systems.\nContributed to real-time stock trading platform stability testing.\nCreated onboarding documentation later used for QA training."
-  },
-  {
-    "objectID": "index.html#key-skills",
-    "href": "index.html#key-skills",
-    "title": "Hasitha Subhashana",
-    "section": "",
-    "text": "Playwright\n\nCypress\n\nPostman\n\nAPI Testing\n\nRegression Strategy\n\nCI/CD Validation\n\nPerformance Testing\n\n\n\n\n\nStrategic Thinking\n\nProcess Improvement\n\nStakeholder Communication\n\nData-Driven Decision Making\n\nResilience"
-  },
-  {
-    "objectID": "index.html#selected-projects",
-    "href": "index.html#selected-projects",
-    "title": "Hasitha Subhashana",
-    "section": "",
-    "text": "Applied operational frameworks to redesign order fulfillment processes and improve delivery performance.\n\n\n\nAnalyzed ecosystem risks and strategic alignment approaches for long-term competitive advantage."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "Email: chathumijmcg@gmail.com\nLocation: Vancouver, British Columbia\nLinkedIn: https://www.linkedin.com/in/YOUR-LINK-HERE"
-  },
-  {
-    "objectID": "index.html#profile",
-    "href": "index.html#profile",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "I am an MBA candidate at University Canada West and a Quality Assurance Engineer with over five years of experience in automation, API validation, and performance optimization. My work bridges technical execution with business impact, focusing on scalable test frameworks, CI/CD integration, and AI-assisted quality systems.\nThrough my MBA studies, I am expanding my technical expertise into strategic decision-making, operational design, and AI integration within business environments.\nI approach quality engineering with a strategic mindset: reduce production risk, improve deployment velocity, and align validation processes with measurable business outcomes."
-  },
-  {
-    "objectID": "index.html#professional-impact",
-    "href": "index.html#professional-impact",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "Over the past five years, I have consistently contributed to measurable improvements in software quality and operational efficiency:\n\n50% reduction in regression testing time through automation framework design\n\n65% increase in API validation coverage across distributed microservices\n\n30% improvement in CI/CD pipeline stability\n\n45% reduction in production defects in insurance platforms\n\n35% decrease in manual documentation effort using AI-assisted workflows\n\nMy focus is not only technical execution, but sustainable, scalable process improvement."
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "Designed and implemented scalable automation frameworks using Cypress and Playwright, reducing regression testing time by 50%. Integrated automated smoke tests into GitHub Actions and Jenkins, improving pipeline stability by 30%.\n\n\n\n\nImproved API validation coverage by 65% across microservices using Postman and REST-Assured. Strengthened early defect detection and increased release confidence across staging and production environments.\n\n\n\n\nIntegrated generative AI tools such as ChatGPT and GitHub Copilot into test documentation and script generation workflows, reducing manual effort by 35% and accelerating sprint validation cycles.\n\n\n\n\nDeveloped an AI-driven performance analysis agent as part of my undergraduate capstone research, later published in IEEE Xplore. The system used machine learning models and feedback loops to deliver real-time performance optimization insights."
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "Playwright (JavaScript), Cypress, Selenium WebDriver\nRegression, Functional, Exploratory, UAT Testing\n\n\n\nPostman (Collections & Scripting), REST, HTTP\nMicroservice validation and environment testing\n\n\n\nGit, GitHub Actions, Jenkins\nCI/CD Integration, Docker (Basic), Bash\n\n\n\nChatGPT, GitHub Copilot, Claude\nAI-assisted documentation and test generation\n\n\n\nRisk-based testing\nProcess improvement\nCross-functional communication\nData-driven QA reporting\nStrategic thinking"
-  },
-  {
-    "objectID": "index.html#ai-in-business-perspective",
-    "href": "index.html#ai-in-business-perspective",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "As part of BUSI 654, I am actively exploring how AI transforms operational workflows, decision systems, and competitive advantage. My professional experience applying AI tools in QA workflows complements my academic understanding of AI strategy, governance, and implementation challenges.\nI view AI not as automation alone, but as a structured augmentation layer that enhances human judgment, efficiency, and innovation."
-  },
-  {
-    "objectID": "index.html#professional-philosophy",
-    "href": "index.html#professional-philosophy",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "Quality engineering should directly support business objectives. Testing is not only defect detection; it is risk management, operational optimization, and strategic alignment. AI serves as a force multiplier when paired with structured thinking and responsible implementation."
-  },
-  {
-    "objectID": "index.html#future-focus",
-    "href": "index.html#future-focus",
-    "title": "Chathumi Bandara",
-    "section": "",
-    "text": "AI-driven test optimization\n\nQA leadership and strategic quality management\n\nBuilding intelligent and scalable validation systems\n\nIntegrating AI strategy with operational excellence"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Chathu Bandara",
+    "section": "",
+    "text": "MBA Student | QA Engineer | Vancouver, BC\n\n    \n      Hello.\n    \n\n    \n      I'm Chathu Bandara - building reliable products through QA, automation, and delivery focus while growing in strategy, operations, and digital transformation.\n    \n\n    \n      \n        \n      \n\n      \n        \n      \n\n      \n        \n      \n    \n  \n\n  \n    \n      \n    \n  \n\n\n\n\nAbout\n\n\nI am a Quality Assurance Engineer and MBA candidate focused on quality strategy, automation, and release confidence across global software teams. I am currently based in British Columbia, Canada and building toward technology leadership roles that connect delivery execution with measurable business outcomes.\n\n\n\n\nQuick Snapshot\n\n\n\n5+ years in software quality assurance\n\n\nHands-on with automation, API testing, and CI/CD\n\n\nExperience across SaaS, insurance, fintech, and IoT\n\n\n\n\n\nCore Focus\n\n\nPlaywright Cypress Postman API Testing Regression Strategy CI/CD Performance Testing\n\n\n\n\nExplore More\n\n\nDetailed information is available in dedicated pages:\n\n\nResume Projects Skills Contact"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Professional Background\n\n\n\nQuality Assurance Engineer with experience in automation, API validation, and release quality across global software projects. Currently pursuing an MBA to bridge technology execution with strategic business leadership."
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\n\n\nMar 2025 – Present\n\n\n \n\n\nOrder Verification Associate\nUnited Floral Inc, Burnaby, BC\n\nEnsuring high-volume order accuracy in a logistics-driven environment.\nApplying transferable QA skills such as validation, documentation, and issue detection.\nStrengthening adaptability within a Canadian workplace context.\n\n\n\n\n\nAug 2022 – Sep 2024\n\n\n \n\n\nQuality Assurance Engineer\nEyepax IT Consulting (Remote – Australia Clients)\n\nReduced regression testing time by 50% through automation framework design.\nImproved CI/CD stability by integrating automated smoke tests.\nLed structured weekly triage sessions, accelerating issue resolution by 40%.\nMentored junior QA engineers to improve scripting consistency and efficiency.\n\n\n\n\n\nJan 2021 – Aug 2022\n\n\n \n\n\nSoftware Quality Assurance Engineer\nIntervest Software Technologies (European Insurance Clients)\n\nIncreased test coverage by 80% across insurance platforms.\nReduced production defects by 45% through proactive sprint QA involvement.\nDelivered multiple quarterly releases with zero critical post-launch defects.\nPromoted within six months based on performance and adaptability.\n\n\n\n\n\nJan 2019 – Aug 2020\n\n\n \n\n\nQuality Assurance Intern\nDirectFN Sri Lanka\n\nBuilt Selenium-based regression scripts for fintech systems.\nContributed to real-time stock trading platform stability testing.\nCreated onboarding documentation later used for QA training.\n\n\n\n\n\n\n\nSkills\n\n\n\n\nTechnical\n\n\nPlaywright Cypress Postman API Testing Regression Strategy CI/CD Performance Testing\n\n\n\n\nBusiness & Leadership\n\n\nStrategic Thinking Process Improvement Stakeholder Management Decision Making Resilience\n\n\n\n\n\n\nResearch Publication\n\n\n\n\n\n\n\nIEEE Published Research Paper\n\n\nPublished in IEEE Xplore Digital Library\n\nView Publication →"
+    "text": "Professional Experience\n\n\n\nMar 2025 – Present\n\n\n \n\n\nOrder Verification Associate\nUnited Floral Inc — Burnaby, BC\n\nEnsure high-volume order accuracy within a logistics-driven environment\n\nApply validation and issue detection skills developed through QA work\n\nMaintain operational reliability during high demand seasonal operations\n\n\n\n\n\nAug 2022 – Sep 2024\n\n\n \n\n\nQuality Assurance Engineer\nEyepax IT Consulting — Remote (Australia Clients)\n\nReduced regression testing time by 50% through automation frameworks\n\nImproved CI/CD stability by integrating automated smoke tests\n\nLed weekly issue triage sessions accelerating resolution by 40%\n\nMentored junior QA engineers to improve automation scripting consistency\n\n\n\n\n\nJan 2021 – Aug 2022\n\n\n \n\n\nSoftware Quality Assurance Engineer\nIntervest Software Technologies — European Insurance Platforms\n\nIncreased test coverage by 80% across insurance systems\n\nReduced production defects by 45% through early sprint QA involvement\n\nDelivered multiple quarterly releases with zero critical production defects\n\nPromoted within six months due to performance and adaptability\n\n\n\n\n\nJan 2019 – Aug 2020\n\n\n \n\n\nQuality Assurance Intern\nDirectFN Sri Lanka\n\nBuilt Selenium-based regression scripts for fintech trading platforms\n\nAssisted stability testing for real-time stock market systems\n\nCreated onboarding documentation later used for QA training\n\n\n\n\n\n\nEducation\n\n\n\n\nMaster of Business Administration (MBA)\n\n\nExpected 2026\n\n\n\nUniversity Canada West — Vancouver, Canada\nFocus: Digital Transformation, Strategic Management, AI in Business\n\n\n\n\n\nBSc (Hons) Information Technology\n\n\nSri Lanka\n\n\n\n\n\n\nCertifications\n\n\n\nQuality Assurance Automation Tools\n\n\nContinuous Integration & Testing Practices\n\n\n\n\n\nKey Skills\n\n\nPlaywright Cypress Postman API Testing Regression Strategy CI/CD Automation Testing Performance Testing\n\n\n\n\nDownload Resume\n\n\nFor a complete overview of my professional experience and academic work, you can download my full resume.\n\n Download PDF Resume"
   }
 ]

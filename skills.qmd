@@ -1,0 +1,155 @@
+---
+title: "Skills"
+format:
+  html:
+    css: styles/resume.css
+---
+
+::: {.page-header}
+::: {.page-kicker}
+Capabilities
+:::
+
+# Skills & Certifications
+
+My background combines hands-on quality assurance expertise with growing strengths in business, leadership, and digital transformation. I work across manual testing, automation, API validation, Agile delivery, and cross-functional collaboration.
+:::
+
+::: {.grid}
+
+::: {.card .span-2}
+## Core QA Strengths
+
+With over five years of experience in software quality assurance, I have built a strong foundation in both manual and automated testing across web, API, SaaS, and real-time systems. My work focuses on improving reliability, reducing regression effort, and supporting confident releases.
+
+::: {.badges}
+<span class="badge">Manual Testing</span>
+<span class="badge">Automation Testing</span>
+<span class="badge">API Testing</span>
+<span class="badge">Regression Testing</span>
+<span class="badge">Smoke Testing</span>
+<span class="badge">Sanity Testing</span>
+<span class="badge">Functional Testing</span>
+<span class="badge">Integration Testing</span>
+<span class="badge">System Testing</span>
+<span class="badge">Cross Browser Testing</span>
+<span class="badge">Responsive Testing</span>
+<span class="badge">UAT Support</span>
+<span class="badge">Defect Management</span>
+<span class="badge">Test Planning</span>
+<span class="badge">Test Strategy</span>
+:::
+:::
+
+::: {.card}
+## Automation & Tools
+
+I have worked with modern testing tools and frameworks to improve test coverage, speed up regression cycles, and support scalable QA processes.
+
+::: {.badges}
+[Playwright]{.badge}
+[Cypress]{.badge}
+[Selenium]{.badge}
+[Postman]{.badge}
+[REST Assured]{.badge}
+[Jenkins]{.badge}
+[Git]{.badge}
+[JIRA]{.badge}
+[TestRail]{.badge}
+[Confluence]{.badge}
+[SQL]{.badge}
+[Java]{.badge}
+[JavaScript]{.badge}
+:::
+:::
+
+::: {.card}
+## Delivery & Ways of Working
+
+I have consistently worked in Agile teams, partnering with developers, product owners, analysts, and stakeholders across multiple time zones to support sprint delivery and release quality.
+
+::: {.badges}
+[Agile]{.badge}
+[Scrum]{.badge}
+[Sprint Planning]{.badge}
+[Backlog Grooming]{.badge}
+[Release Validation]{.badge}
+[QA Sign Off]{.badge}
+[CI/CD Support]{.badge}
+[Cross Functional Collaboration]{.badge}
+[Documentation]{.badge}
+[Issue Tracking]{.badge}
+:::
+:::
+
+::: {.card .span-2}
+## Business & Professional Skills
+
+Alongside my technical work, I am building stronger business and leadership capability through my MBA. I am especially interested in connecting software quality with business impact, process improvement, and strategic decision-making.
+
+::: {.badges}
+[Analytical Thinking]{.badge}
+[Problem Solving]{.badge}
+[Communication]{.badge}
+[Stakeholder Management]{.badge}
+[Leadership Development]{.badge}
+[Process Improvement]{.badge}
+[Team Collaboration]{.badge}
+[Adaptability]{.badge}
+[Attention to Detail]{.badge}
+[Business Strategy]{.badge}
+[Digital Transformation]{.badge}
+[Quality Mindset]{.badge}
+:::
+:::
+
+::: {.card}
+## Domain Exposure
+
+My experience spans multiple product and business contexts, helping me adapt quickly to different user needs, workflows, and compliance expectations.
+
+::: {.badges}
+[SaaS Platforms]{.badge}
+[Insurance Systems]{.badge}
+[Travel Insurance]{.badge}
+[Document Signing Platforms]{.badge}
+[Stock Market Systems]{.badge}
+[Real Time Financial Platforms]{.badge}
+[IoT Applications]{.badge}
+:::
+:::
+
+::: {.card .skills-edu}
+## Education & Certification
+
+::: {.item}
+::: {.item-top}
+::: {.item-title}
+MBA Candidate
+:::
+::: {.item-date}
+Current
+:::
+:::
+::: {.item-sub}
+University Canada West
+:::
+:::
+
+::: {.item}
+::: {.item-top}
+::: {.item-title}
+BSc (Hons) in Information Technology
+:::
+::: {.item-date}
+Completed
+:::
+:::
+::: {.item-sub}
+SLIIT
+:::
+:::
+
+:::
+
+:::

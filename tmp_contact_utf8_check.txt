@@ -1,0 +1,86 @@
+﻿---
+title: "Contact"
+format:
+  html:
+    css: styles/contact.css
+---
+
+<div class="contact-hero">
+  <div class="contact-kicker">Letâ€™s Connect</div>
+  <h1 class="contact-title">Get in Touch</h1>
+  <p class="contact-subtitle">
+    Iâ€™m always open to connecting about quality assurance, automation, digital transformation, business strategy, and new professional opportunities.
+  </p>
+</div>
+
+<div class="contact-layout">
+
+  <div class="card contact-main">
+    <h2>Reach Out</h2>
+    <p class="contact-intro">
+      Whether you want to discuss QA, academic work, collaboration opportunities, or simply connect professionally, Iâ€™d be glad to hear from you.
+    </p>
+
+    <div class="contact-list">
+
+      <a class="contact-item" href="mailto:chathumi.cg@gmail.com" aria-label="Send email to Chathu Bandara">
+        <div class="contact-icon">âœ‰</div>
+        <div class="contact-text">
+          <div class="contact-label">Email</div>
+          <div class="contact-value">chathumi.cg@gmail.com</div>
+        </div>
+      </a>
+
+      <a class="contact-item" href="https://www.linkedin.com/in/chathumi-bandara/" target="_blank" rel="noopener" aria-label="Visit LinkedIn profile">
+        <div class="contact-icon">in</div>
+        <div class="contact-text">
+          <div class="contact-label">LinkedIn</div>
+          <div class="contact-value">linkedin.com/in/chathumi-bandara</div>
+        </div>
+      </a>
+
+      <a class="contact-item" href="https://github.com/ChathuBandara" target="_blank" rel="noopener" aria-label="Visit GitHub profile">
+        <div class="contact-icon">âŒ˜</div>
+        <div class="contact-text">
+          <div class="contact-label">GitHub</div>
+          <div class="contact-value">github.com/ChathuBandara</div>
+        </div>
+      </a>
+
+      <div class="contact-item">
+        <div class="contact-icon">âŒ‚</div>
+        <div class="contact-text">
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Vancouver, British Columbia, Canada</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="contact-side">
+
+    <div class="card contact-panel">
+      <h2>What Iâ€™m Open To</h2>
+      <div class="badges">
+        <span class="badge">QA Opportunities</span>
+        <span class="badge">Automation Projects</span>
+        <span class="badge">Professional Networking</span>
+        <span class="badge">MBA Collaborations</span>
+        <span class="badge">Tech Conversations</span>
+        <span class="badge">Business Strategy</span>
+      </div>
+    </div>
+
+    <div class="card contact-panel">
+      <h2>Quick Note</h2>
+      <p>
+        I enjoy connecting with people who care about quality, innovation, growth, and meaningful work. If you have an opportunity, idea, or collaboration in mind, feel free to reach out.
+      </p>
+
+      <a class="contact-cta" href="mailto:chathumi.cg@gmail.com">Send a Message</a>
+    </div>
+
+  </div>
+
+</div>

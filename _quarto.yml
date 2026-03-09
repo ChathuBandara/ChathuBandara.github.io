@@ -1,24 +1,28 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 
 website:
   title: "Chathu Bandara"
   navbar:
     right:
-      - text: About
-        href: "#about"
-      - text: Education
-        href: "#education"
-      - text: Experience
-        href: "#experience"
-      - text: Skills
-        href: "#skills"
-      - text: Research 
-        href: "#research "
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: Resume
+      - href: projects.qmd
+        text: Projects
+      - href: skills.qmd
+        text: Skills
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:
     theme: cosmo
+    css: styles/main.css
     toc: false
-    css: styles.css
+    page-layout: full
+
+
+    
