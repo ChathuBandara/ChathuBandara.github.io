@@ -1,5 +1,10 @@
 /* ===== Contact Page ===== */
 
+#title-block-header.quarto-title-block,
+.quarto-title-block.default{
+  display: none;
+}
+
 .contact-hero{
   padding: 18px 0 28px;
 }

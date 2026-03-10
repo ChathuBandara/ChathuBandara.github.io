@@ -3,6 +3,7 @@ title: "Contact"
 format:
   html:
     css: styles/contact.css
+    title-block: false
 ---
 
 <div class="contact-hero">

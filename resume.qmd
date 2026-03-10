@@ -3,9 +3,9 @@ title: "Resume"
 format:
   html:
     css: styles/resume.css
+    title-block: false
 ---
 <div class="page-header">
-<div class="page-kicker">Professional Background</div>
 <h1>Resume</h1>
 
 <p>

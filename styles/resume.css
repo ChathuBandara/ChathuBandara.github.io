@@ -1,5 +1,10 @@
 /* ===== Resume Page Header ===== */
 
+#title-block-header.quarto-title-block,
+.quarto-title-block.default{
+  display:none;
+}
+
 .resume-header{
   margin-bottom: 32px;
 }
