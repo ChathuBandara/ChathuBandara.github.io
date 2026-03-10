@@ -321,12 +321,17 @@ body.contact-modal-open{
 .contact-modal{
   position: fixed;
   inset: 0;
-  display: none;
   z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 220ms ease, visibility 220ms ease;
 }
 
 .contact-modal.is-open{
-  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .contact-modal-backdrop{
@@ -334,6 +339,8 @@ body.contact-modal-open{
   inset: 0;
   background: rgba(5,10,24,0.7);
   backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 220ms ease;
 }
 
 .contact-modal-dialog{
@@ -342,6 +349,19 @@ body.contact-modal-open{
   margin: 6vh auto 0;
   padding: 22px;
   z-index: 1;
+  opacity: 0;
+  transform: translateY(24px) scale(0.96);
+  transition: opacity 260ms ease, transform 260ms ease;
+  transform-origin: top center;
+}
+
+.contact-modal.is-open .contact-modal-backdrop{
+  opacity: 1;
+}
+
+.contact-modal.is-open .contact-modal-dialog{
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
 .contact-modal-close{
@@ -414,5 +434,17 @@ body.contact-modal-open{
 
 .contact-value a:hover{
   border-bottom-color: rgba(255,255,255,0.7);
+}
+
+@media (prefers-reduced-motion: reduce){
+  .contact-modal,
+  .contact-modal-backdrop,
+  .contact-modal-dialog{
+    transition: none;
+  }
+
+  .contact-modal-dialog{
+    transform: none;
+  }
 }
 

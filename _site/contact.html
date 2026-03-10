@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Contact – Chathu Bandara</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -32,15 +35,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -333,6 +335,94 @@ See my coding work, technical projects, and repositories that reflect my interes
 
 
 </main> <!-- /main -->
+<button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">
+  <span class="back-to-top-ring" aria-hidden="true"></span>
+  <span class="back-to-top-icon" aria-hidden="true">↑</span>
+</button>
+
+<script>
+(() => {
+  const button = document.getElementById("back-to-top");
+  let animationFrameId = null;
+
+  const toggleButton = () => {
+    if (!button) return;
+    const shouldShow = window.scrollY > 280;
+    button.classList.toggle("is-visible", shouldShow);
+  };
+
+  const easeInOutCubic = (t) => (
+    t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2
+  );
+
+  const scrollToTopSlowly = () => {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+    }
+
+    const startY = window.scrollY;
+    const duration = 1400;
+    const startTime = performance.now();
+
+    const step = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easedProgress = easeInOutCubic(progress);
+      const nextY = Math.round(startY * (1 - easedProgress));
+
+      window.scrollTo(0, nextY);
+
+      if (progress < 1) {
+        animationFrameId = requestAnimationFrame(step);
+      } else {
+        animationFrameId = null;
+      }
+    };
+
+    animationFrameId = requestAnimationFrame(step);
+  };
+
+  if (button) {
+    button.addEventListener("click", () => {
+      scrollToTopSlowly();
+    });
+  }
+
+  window.addEventListener("scroll", toggleButton, { passive: true });
+  toggleButton();
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.querySelectorAll(".reveal-on-scroll").forEach((element) => {
+      element.classList.add("is-visible");
+    });
+    return;
+  }
+
+  const revealTargets = document.querySelectorAll(
+    ".hero-minimal, .page-header, .contact-hero, .card, .rail-item"
+  );
+
+  revealTargets.forEach((element, index) => {
+    element.classList.add("reveal-on-scroll");
+    element.style.setProperty("--reveal-delay", `${Math.min(index * 45, 240)}ms`);
+  });
+
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      observer.unobserve(entry.target);
+    });
+  }, {
+    threshold: 0.16,
+    rootMargin: "0px 0px -8% 0px"
+  });
+
+  revealTargets.forEach((element) => {
+    revealObserver.observe(element);
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

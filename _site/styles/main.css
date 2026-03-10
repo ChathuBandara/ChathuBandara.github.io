@@ -19,6 +19,34 @@ body{
     radial-gradient(900px 600px at 70% 85%, rgba(255,138,61,0.16), transparent 55%),
     var(--bg);
   color: var(--text);
+  background-size: 115% 115%, 120% 120%, 125% 125%, auto;
+  animation: ambient-glow 22s ease-in-out infinite alternate;
+}
+
+.reveal-on-scroll{
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 700ms ease,
+    transform 700ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal-on-scroll.is-visible{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes ambient-glow{
+  0%{
+    background-position: 0% 0%, 100% 0%, 100% 100%, 0 0;
+  }
+  50%{
+    background-position: 4% 3%, 96% 4%, 94% 97%, 0 0;
+  }
+  100%{
+    background-position: 7% 6%, 92% 8%, 88% 94%, 0 0;
+  }
 }
 
 
@@ -116,6 +144,38 @@ body{
   padding: 6px 12px;
   border-radius: 999px;
   font-size: 13px;
+}
+
+.badges > .badge,
+.badges > p > .badge{
+  opacity: 0;
+  transform: translateY(10px) scale(0.96);
+  animation: badge-rise 520ms ease forwards;
+}
+
+.badges .badge:nth-child(1){ animation-delay: 40ms; }
+.badges .badge:nth-child(2){ animation-delay: 90ms; }
+.badges .badge:nth-child(3){ animation-delay: 140ms; }
+.badges .badge:nth-child(4){ animation-delay: 190ms; }
+.badges .badge:nth-child(5){ animation-delay: 240ms; }
+.badges .badge:nth-child(6){ animation-delay: 290ms; }
+.badges .badge:nth-child(7){ animation-delay: 340ms; }
+.badges .badge:nth-child(8){ animation-delay: 390ms; }
+.badges .badge:nth-child(9){ animation-delay: 440ms; }
+.badges .badge:nth-child(10){ animation-delay: 490ms; }
+.badges .badge:nth-child(11){ animation-delay: 540ms; }
+.badges .badge:nth-child(12){ animation-delay: 590ms; }
+.badges .badge:nth-child(n+13){ animation-delay: 640ms; }
+
+@keyframes badge-rise{
+  from{
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 .card{
@@ -267,6 +327,16 @@ body{
   color: #fff !important;
 }
 
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link[aria-current="page"] {
+  color: #ffffff !important;
+  background: linear-gradient(90deg, rgba(34,211,238,0.18), rgba(124,77,255,0.22), rgba(255,138,61,0.18));
+  border: 1px solid rgba(255,255,255,0.16);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.08),
+    0 10px 24px rgba(0,0,0,0.22);
+}
+
 /* smooth scroll + offset so headings */
 html { scroll-behavior: smooth; }
 :target { scroll-margin-top: 90px; }
@@ -280,43 +350,120 @@ html { scroll-behavior: smooth; }
 }
 
 /* ===== Back To Top Button ===== */
-
 .back-to-top {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 48px;
-  height: 48px;
+  width: 68px;
+  height: 68px;
 
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: 14px;
-  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.16);
 
-  background: rgba(255,255,255,0.08);
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.26), transparent 32%),
+    linear-gradient(135deg, rgba(34,211,238,0.24), rgba(255,138,61,0.22), rgba(124,77,255,0.24)),
+    rgba(11,18,32,0.64);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
   color: white;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
 
   cursor: pointer;
+  z-index: 2000;
+  overflow: hidden;
 
   box-shadow:
-    0 10px 30px rgba(0,0,0,0.4),
-    0 0 25px rgba(124,77,255,0.15);
+    0 16px 38px rgba(0,0,0,0.42),
+    0 0 36px rgba(124,77,255,0.18);
 
-  transition: all 160ms ease;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(16px);
+  transition: opacity 180ms ease, visibility 180ms ease, transform 180ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.back-to-top.is-visible{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+  animation: back-to-top-bounce 1.8s ease-in-out infinite, corner-float 6s ease-in-out infinite;
+}
+
+.back-to-top::before{
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border-radius: inherit;
+  background: rgba(11,18,32,0.62);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.back-to-top-ring{
+  position: absolute;
+  inset: 16px;
+  border-radius: inherit;
+  border: 1px solid rgba(255,255,255,0.22);
+  box-shadow: inset 0 0 24px rgba(255,255,255,0.08);
+  animation: corner-pulse 3.2s ease-in-out infinite;
+}
+
+.back-to-top-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  z-index: 1;
 }
 
 .back-to-top:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
   box-shadow:
     0 14px 40px rgba(0,0,0,0.5),
     0 0 35px rgba(255,138,61,0.25);
+}
+
+@keyframes back-to-top-bounce{
+  0%, 100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes corner-float{
+  0%, 100%{
+    transform: translateY(0) rotate(0deg);
+  }
+  50%{
+    transform: translateY(-8px) rotate(4deg);
+  }
+}
+
+@keyframes corner-pulse{
+  0%, 100%{
+    transform: scale(1);
+    opacity: 0.68;
+  }
+  50%{
+    transform: scale(1.08);
+    opacity: 1;
+  }
 }
 
 /* ===== Bulletproof Rail Timeline (CSS Grid, no absolute) ===== */
@@ -664,4 +811,43 @@ h2, h3{
 
 .research-link:hover{
   text-decoration: underline;
+}
+
+@media (max-width: 640px){
+  .back-to-top{
+    right: 16px;
+    bottom: 22px;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce){
+  body{
+    animation: none;
+  }
+
+  .back-to-top.is-visible,
+  .back-to-top-ring{
+    animation: none;
+  }
+
+  .back-to-top{
+    transform: none;
+  }
+
+  .badges > .badge,
+  .badges > p > .badge{
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  .reveal-on-scroll,
+  .reveal-on-scroll.is-visible{
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
