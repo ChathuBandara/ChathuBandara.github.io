@@ -3,13 +3,10 @@ title: "Skills"
 format:
   html:
     css: styles/resume.css
+    title-block: false
 ---
 
 ::: {.page-header}
-::: {.page-kicker}
-Capabilities
-:::
-
 # Skills & Certifications
 
 My background combines hands-on quality assurance expertise with growing strengths in business, leadership, and digital transformation. I work across manual testing, automation, API validation, Agile delivery, and cross-functional collaboration.
