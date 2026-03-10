@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 562c5a0d-40ed-49ac-a4a9-c2f045026bdd
+      url: https://spiffy-elf-b1af44.netlify.app
