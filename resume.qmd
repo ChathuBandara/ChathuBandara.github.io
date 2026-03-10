@@ -1,0 +1,200 @@
+---
+title: "Resume"
+format:
+  html:
+    css: styles/resume.css
+    title-block: false
+---
+<div class="page-header">
+<h1>Resume</h1>
+
+<p>
+Quality Assurance Engineer with experience in automation, API validation, and release quality across global software projects. Currently pursuing an MBA to bridge technology execution with strategic business leadership.
+</p>
+</div>
+
+<div class="grid">
+
+<div class="card span-2">
+<h2>Professional Summary</h2>
+
+<p>
+I am a Quality Assurance Engineer with experience in automation frameworks, API testing, and quality strategy across international projects. My work focuses on improving software reliability, accelerating release cycles, and strengthening development workflows.
+</p>
+
+<p>
+Alongside my engineering experience, I am currently pursuing an MBA at University Canada West where I study digital transformation, strategic management, and AI in business. My long-term goal is to lead technology teams that align product delivery with measurable business outcomes.
+</p>
+
+</div>
+
+## Professional Experience {#experience}
+
+::: {.rail-timeline}
+
+::: {.rail-item}
+
+::: {.rail-date}
+Mar 2025 – Present
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+
+### Order Verification Associate  
+United Floral Inc — Burnaby, BC
+
+- Ensure high-volume order accuracy within a logistics-driven environment  
+- Apply validation and issue detection skills developed through QA work  
+- Maintain operational reliability during high demand seasonal operations  
+
+:::
+:::
+
+::: {.rail-item}
+
+::: {.rail-date}
+Aug 2022 – Sep 2024
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+
+### Quality Assurance Engineer  
+Eyepax IT Consulting — Remote (Australia Clients)
+
+- Reduced regression testing time by **50%** through automation frameworks  
+- Improved CI/CD stability by integrating automated smoke tests  
+- Led weekly issue triage sessions accelerating resolution by **40%**  
+- Mentored junior QA engineers to improve automation scripting consistency  
+
+:::
+:::
+
+::: {.rail-item}
+
+::: {.rail-date}
+Jan 2021 – Aug 2022
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+
+### Software Quality Assurance Engineer  
+Intervest Software Technologies — European Insurance Platforms
+
+- Increased test coverage by **80%** across insurance systems  
+- Reduced production defects by **45%** through early sprint QA involvement  
+- Delivered multiple quarterly releases with **zero critical production defects**  
+- Promoted within six months due to performance and adaptability  
+
+:::
+:::
+
+::: {.rail-item}
+
+::: {.rail-date}
+Jan 2019 – Aug 2020
+:::
+
+::: {.rail-rail}
+&nbsp;
+:::
+
+::: {.rail-body}
+
+### Quality Assurance Intern  
+DirectFN Sri Lanka
+
+- Built Selenium-based regression scripts for fintech trading platforms  
+- Assisted stability testing for real-time stock market systems  
+- Created onboarding documentation later used for QA training  
+
+:::
+:::
+
+:::
+
+<div class="card span-2">
+
+<h2>Education</h2>
+
+<div class="item">
+
+<div class="item-top">
+<div class="item-title">Master of Business Administration (MBA)</div>
+<div class="item-date">Expected 2026</div>
+</div>
+
+<div class="item-sub">
+University Canada West — Vancouver, Canada  
+Focus: Digital Transformation, Strategic Management, AI in Business
+</div>
+
+</div>
+
+<div class="item">
+
+<div class="item-top">
+<div class="item-title">BSc (Hons) Information Technology</div>
+<div class="item-date">Sri Lanka</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Certifications</h2>
+
+<ul>
+<li>Quality Assurance Automation Tools</li>
+<li>Continuous Integration & Testing Practices</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Key Skills</h2>
+
+<div class="badges">
+
+<span class="badge">Playwright</span>
+<span class="badge">Cypress</span>
+<span class="badge">Postman</span>
+<span class="badge">API Testing</span>
+<span class="badge">Regression Strategy</span>
+<span class="badge">CI/CD</span>
+<span class="badge">Automation Testing</span>
+<span class="badge">Performance Testing</span>
+
+</div>
+
+</div>
+
+<div class="card span-2 resume-download">
+
+<h2>Download Resume</h2>
+
+<p>
+For a complete overview of my professional experience and academic work, you can download my full resume.
+</p>
+
+<a class="resume-btn" href="https://drive.google.com/file/d/1X5TUtNInDFhAA5ZiSgzv5sLuAvRmQypn/view?usp=drive_link" target="_blank" rel="noopener">
+Download PDF Resume
+</a>
+
+</div>
+
+</div>

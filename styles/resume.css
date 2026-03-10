@@ -1,0 +1,66 @@
+/* ===== Resume Page Header ===== */
+
+#title-block-header.quarto-title-block,
+.quarto-title-block.default{
+  display:none;
+}
+
+.resume-header{
+  margin-bottom: 32px;
+}
+
+.resume-header h1{
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.resume-header p{
+  color: rgba(255,255,255,0.78);
+  max-width: 760px;
+}
+
+/* ===== Resume Download Button ===== */
+
+.resume-download{
+  text-align:center;
+}
+
+.resume-btn{
+  display:inline-block;
+  padding:12px 22px;
+  margin-top:12px;
+
+  border-radius:12px;
+  font-weight:700;
+  text-decoration:none;
+
+  background:linear-gradient(135deg,var(--cyan),var(--orange),var(--purple));
+  color:white;
+
+  box-shadow:0 14px 40px rgba(0,0,0,0.4);
+  transition:all 160ms ease;
+}
+
+.resume-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 18px 50px rgba(0,0,0,0.5);
+}
+
+/* Compact spacing for education items on Skills page */
+.skills-edu .item + .item{
+  margin-top: 10px;
+}
+
+.skills-edu .item-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 2px;
+}
+
+.skills-edu .item-sub{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.25;
+}

@@ -1,0 +1,216 @@
+---
+title: "Projects"
+format:
+  html:
+    css: styles/resume.css
+    title-block: false
+---
+
+::: {.page-header}
+# Projects & Case Work
+
+This page highlights selected professional and technical work that reflects my experience in quality assurance, automation, testing strategy, and cross-functional delivery. These projects demonstrate both technical depth and business awareness.
+:::
+
+::: {.grid}
+
+::: {.card .span-2}
+## Research Project
+
+::: {.p-card}
+::: {.p-title}
+Smart Sprint Performance Agent
+:::
+
+::: {.p-sub}
+Novel Sprinter Assistive Smart Agent for Continuous Performance Improvement
+:::
+
+This research project was conducted as part of my final year undergraduate studies at Sri Lanka Institute of Information Technology (SLIIT). The project focused on designing an intelligent assistive system that analyzes sprint performance using multiple sensor-based devices and provides automated feedback to improve athlete performance.
+
+### Key Components
+
+- Smart shoe sensors for stride detection
+- Track sensors for acceleration monitoring
+- Arm motion detection bracelet
+- Web application for performance visualization
+
+::: {.badges}
+<span class="badge">Research</span>
+<span class="badge">IoT</span>
+<span class="badge">Sensors</span>
+<span class="badge">Performance Analytics</span>
+<span class="badge">Automation</span>
+:::
+
+### Publication
+
+::: {.research-card}
+::: {.research-left}
+<img src="assets/icons/ieee-logo.jpg" alt="IEEE Logo">
+:::
+
+::: {.research-right}
+::: {.research-title}
+IEEE Published Research Paper
+:::
+
+::: {.research-sub}
+Published in IEEE Xplore Digital Library
+:::
+
+<a class="research-link" href="https://ieeexplore.ieee.org/document/9392395" target="_blank" rel="noopener">View IEEE Publication -></a>
+:::
+:::
+:::
+:::
+
+::: {.card .span-2}
+## Featured Project
+
+::: {.p-card}
+::: {.p-title}
+FLKitover - Online Document Signing Platform
+:::
+
+::: {.p-sub}
+A web-based document workflow platform for Australian small businesses and real estate teams to create, send, and sign documents digitally.
+:::
+
+In this project, I supported end-to-end quality assurance across core workflow features including document creation, signing, validation, and real-time syncing. I contributed through both manual and automated testing while working closely with the client and internal Agile team.
+
+::: {.badges}
+<span class="badge">Manual Testing</span>
+<span class="badge">Automation Testing</span>
+<span class="badge">Agile Delivery</span>
+<span class="badge">Client Collaboration</span>
+<span class="badge">Workflow Validation</span>
+<span class="badge">Real Time Sync Testing</span>
+:::
+
+### Key Contributions
+
+- Owned QA for critical document workflow features.
+- Designed and executed test cases for document generation and signing journeys.
+- Participated in stand-ups, sprint reviews, and direct client discussions.
+- Improved test coverage and supported delivery confidence.
+- Received positive recognition for professionalism and responsiveness.
+:::
+:::
+
+::: {.card .span-2}
+::: {.p-card}
+::: {.p-title}
+StaySure Travel Insurance Platform
+:::
+
+::: {.p-sub}
+A travel insurance platform supporting quote, policy, and claims workflows for expatriate and travel insurance customers.
+:::
+
+This project involved end-to-end testing of insurance journeys with strong attention to compliance, coverage logic, policy document accuracy, and user experience across browsers and devices. I worked across manual and automation testing to improve release quality and reduce production risk.
+
+::: {.badges}
+<span class="badge">Insurance Domain</span>
+<span class="badge">Web Testing</span>
+<span class="badge">API Testing</span>
+<span class="badge">Compliance Validation</span>
+<span class="badge">Cross Browser Testing</span>
+<span class="badge">UAT Support</span>
+:::
+
+### Key Contributions
+
+- Tested quote-to-policy and claims-related user journeys.
+- Validated age limits, trip duration rules, and medical screening flows.
+- Verified policy documents and product information outputs.
+- Worked with Agile teams to clarify acceptance criteria and resolve defects early.
+- Supported stronger release quality through risk-based planning and regression coverage.
+:::
+:::
+
+::: {.card}
+::: {.p-card}
+::: {.p-title}
+Automation Framework Improvement at Eyepax
+:::
+
+::: {.p-sub}
+Scalable automation implementation for SaaS products using Cypress, Playwright, Jenkins, and API validation tools.
+:::
+
+I contributed to building and integrating automation frameworks that improved test efficiency and release stability across multiple products and teams.
+
+### Highlights
+
+- Reduced regression time by 50%.
+- Improved test coverage for SaaS platforms by 30%.
+- Supported QA sign-off for 12+ major releases.
+- Helped reduce escaped defects through better dashboards and visibility.
+:::
+:::
+
+::: {.card}
+::: {.p-card}
+::: {.p-title}
+API and Web QA Strategy at Intervest
+:::
+
+::: {.p-sub}
+Test design and automation support for SaaS platforms with strong API and release validation focus.
+:::
+
+At Intervest, I worked across manual and automated testing to improve release velocity, product reliability, and team quality practices.
+
+### Highlights
+
+- Led testing across web and API layers.
+- Improved release speed by reducing manual effort.
+- Contributed to CI/CD-friendly testing practices.
+- Mentored junior QA engineers and promoted quality culture.
+:::
+:::
+
+::: {.card}
+::: {.p-card}
+::: {.p-title}
+Stock Market & Real-Time Finance QA
+:::
+
+::: {.p-sub}
+Quality assurance for real-time stock trading systems with live data feeds and high-accuracy validation requirements.
+:::
+
+This work required careful validation of dashboards, APIs, market data behavior, and release quality in a high-risk financial environment.
+
+### Highlights
+
+- Tested real-time trading platforms and data-heavy workflows.
+- Designed risk-based test cases for critical financial systems.
+- Supported UAT and worked with international stakeholders.
+- Tracked and prioritized defects based on business impact.
+:::
+:::
+
+::: {.card}
+::: {.p-card}
+::: {.p-title}
+IoT Product Testing at OutSmart Hub
+:::
+
+::: {.p-sub}
+Functional and usability testing for IoT-based home automation solutions.
+:::
+
+My early QA work included validation of mobile and web experiences connected to IoT devices, with focus on stable synchronization and realistic user scenarios.
+
+### Highlights
+
+- Tested mobile and web integration behavior.
+- Validated real-time device feedback and synchronization.
+- Improved coverage accuracy through scenario-based testing.
+- Documented issues that supported faster pilot releases.
+:::
+:::
+
+:::
